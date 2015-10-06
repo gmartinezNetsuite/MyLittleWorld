@@ -1,0 +1,185 @@
+@font-face
+{
+	font-family: candara;
+	src: url(../fonts/CANDARA.TTF);
+}
+
+body {
+	background: URL('../img/FondoPagina.jpg');
+	font-family: candara, Palatino, Sans-Serif;
+	overflow-y: scroll;
+}
+
+#container{
+	background-color: #003366;
+	border: 2px solid red;
+	margin:5px auto;
+	padding: 20px;
+	width: 800px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+#header{
+	text-align: right;
+}
+
+#menuHolder{
+	padding: 5px 0;
+	text-align: center;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#menu{
+	font-family: candara, Palatino;
+	margin: 0;
+	padding: 0;
+	font-size: large;
+	list-style-type:none;
+	text-align: center;
+}
+
+#menu li{
+	-moz-border-radius: 6px;
+	border-radius: 6px; 
+	margin: 5px 12px;
+	display: inline;
+	box-shadow: -2px -2px 4px Black;
+	cursor: pointer;
+}
+
+#menu a{
+	padding: 5px;
+	color: AliceBlue;
+	text-decoration: none;
+}
+
+#menu li:hover{
+	background-color: IndianRed;
+}
+
+#mainContent{
+	vertical-align: top;
+	color: #001830;
+	padding: 16px;
+	background-color: AliceBlue;
+	border: 2px groove grey;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#mainContent h2{
+	margin: 40px 30% 5px 30%;
+	text-align: center;
+	padding: 0;
+	font-size: x-large;
+	background-color: #ffcc00;
+}
+
+#mainContent p{
+	font-size: medium;
+	margin: 0 15px 5px;
+	padding: 2px;
+}
+
+#mainContent ul{
+	margin: 0 0;
+}
+
+#mainContent li{
+	font-size: medium;
+	padding: 5px;
+}
+
+#footer{
+	color: AliceBlue;
+	margin-top: 30px;
+}
+
+#footer a{
+	color: AliceBlue;
+}
+
+#divContacto{
+	float: left;
+	text-align: left;
+	width: 45%;
+	height: 429px;
+	margin: 10px 5px 5px 15px;
+	padding: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	box-shadow: -2px -2px 8px Black;
+	border: 1px solid lightGrey;
+	
+}
+
+#loadingDiv{
+	padding: 16px;
+	border: 2px groove grey;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: White;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#designedBy{
+	background-color: #003366;
+	border: 2px solid red;
+	display: block;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: Arial, Sans-serif;
+	font-size: small;
+	color: AliceBlue;
+	width: 260px;
+	padding: 1px 5px;
+}
+
+.option{
+	background-color: Red;
+}
+
+#menu .activeOption{
+	background-color: DarkRed;
+}
+
+.rangoEdad{
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.listaPorEdades{
+	padding: 0 18%;
+}
+
+.logoJardin{
+	margin-right: 40px;
+}
+
+.imagenCabecera{
+	border-radius: 10px;
+	-moz-border-radius: 10px; 
+}
+
+.mapaJardin{
+	margin: 10px 0px 5px 30px;
+	box-shadow: -2px -2px 8px Black;
+	border-radius: 10px;
+	-moz-border-radius: 10px; 
+	border: 1px solid lightGrey;
+}
+
+.designerName{
+	vertical-align: top;
+}
+
+.linkedIn{
+	cursor: pointer;
+	border-radius: 2px;
+	-moz-border-radius: 2px; 
+}

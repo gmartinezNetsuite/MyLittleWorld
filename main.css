@@ -1,0 +1,30 @@
+/*@font-face
+{
+	font-family: Candara;
+	src: url(../fonts/CANDARA.TTF);
+}*/
+
+body {
+	background: URL('../img/FondoPagina.jpg');
+	font-family: Candara, Palatino, Sans-Serif;
+	overflow-y: scroll;
+}
+
+.main-container {
+	background-color: #003366;
+	border: 1px solid red;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	margin-top: 1em;
+}
+
+#header {
+	color: white;
+	margin-top: 1em;
+	margin-bottom: .5em;
+	background: linear-gradient(to right, #003366 0%, #003368 80%, #003366 100%); /* Standard syntax */
+}
+
+.titulo-jardin {
+	text-shadow: 0px 1px 0px #999, -1px 2px 0px #777, -2px 3px 0px #555, -3px 4px 1px #001135;
+}
